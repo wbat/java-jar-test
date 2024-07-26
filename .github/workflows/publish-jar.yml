@@ -2,9 +2,14 @@ name: Publish JAR to GitHub Packages
 
 on:
   push:
-    branches: [ main ]
-  release:
-    types: [ created ]
+    branches:
+      - main
+    paths:
+      - 'src/**'
+  pull_request:
+    paths:
+      - 'src/**'
+  workflow_dispatch:
 
 jobs:
   publish:
