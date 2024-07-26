@@ -1,11 +1,10 @@
 package com.example;
 
-public class App {
-    public static void main(String[] args) {
-        System.out.println("Hello, GitHub Packages!");
-    }
+import com.wbat.java-jar-test.TestClass;
 
-    public static String greet(String name) {
-        return "Hello, " + name + "!";
+public class DemoApp {
+    public static void main(String[] args) {
+        TestClass obj = new TestClass();
+        System.out.println(obj.testMethod());
     }
 }
