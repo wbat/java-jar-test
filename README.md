@@ -1,4 +1,4 @@
-# THe Amazing Maven Example Project!
+# The Amazing Maven Example Project!
 
 This project demonstrates how to publish a Java JAR to GitHub Packages using GitHub Actions and how to use the published JAR in other projects.
 
@@ -18,7 +18,7 @@ To use the published JAR in another project, add the following to your `pom.xml`
 <repositories>
     <repository>
         <id>github</id>
-        <url>https://maven.pkg.github.com/YOUR_GITHUB_USERNAME/maven</url>
+        <url>https://maven.pkg.github.com/wbat/java-jar-test</url>
     </repository>
 </repositories>
 
