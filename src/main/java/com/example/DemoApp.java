@@ -1,6 +1,6 @@
 package com.example;
 
-import com.wbat.java-jar-test.TestClass;
+import com.wbat.javajar.TestClass;
 
 public class DemoApp {
     public static void main(String[] args) {
